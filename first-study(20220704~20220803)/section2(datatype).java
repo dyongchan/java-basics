@@ -13,3 +13,23 @@ Constant(상수)
 
 Literal(리터럴)
 : 변수나 상수를 저장하는 값 그 자체를 의마한다 (ex 'A',123)
+
+Data type의 유형
+1. Primitive Type (기본 자료형) : 실제 값의 저장
+2. Reference Type (참조 자료형) : Primitive 이외의 모든 데이터 타입
+- Reference Variable 은 객체에 대한 "handle"(메모리 주소)을 갖고 있다.
+
+1. Primitive Type
+- Integral : byte / short / int(기본타입) / long
+- Boolean
+- Floating-point : float / double(기본타입)
+
+2. Reference Type : 
+- String : 문자열
+- Array : 배열 (동일 또는 다른 타입들을 모아놓을 수 있음)
+- etc...
+
+Data 저장 범위
+java는 Data type 마다 다른 bit수를 가진다.
+- bit : (-2^-1 ~ 2^-1 -1)의 범위를 가짐 (0의 표현)
+- 가장 왼편의 bit는 sign bit로 예약 되어 있다.
